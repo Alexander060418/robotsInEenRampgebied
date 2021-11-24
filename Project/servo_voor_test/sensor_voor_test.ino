@@ -37,6 +37,7 @@ void setup() {
   Serial.begin(9600);       // use the serial port
 }
 // test
+//test 2
 void loop() {
   // read the sensor and store it in the variable sensorReading:
   sensorReading = analogRead(knockSensor);
