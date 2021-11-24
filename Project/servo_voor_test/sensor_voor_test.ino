@@ -36,7 +36,7 @@ void setup() {
   pinMode(ledPin, OUTPUT); // declare the ledPin as as OUTPUT
   Serial.begin(9600);       // use the serial port
 }
-
+// test
 void loop() {
   // read the sensor and store it in the variable sensorReading:
   sensorReading = analogRead(knockSensor);
